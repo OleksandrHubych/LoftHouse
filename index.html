@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoftHouse</title>
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" href="./libs/youtubeLightbox/youtubeLightbox.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__top-row">
+                    <a href="#!">
+                        <img src="./img/logo.svg" alt="Logo">
+                    </a>
+                    <div class="header__nav">
+                        <nav class="nav">
+                            <ul class="nav__list">
+                                <li><a href="#!">Про комплекс</a></li>
+                                <li><a href="#!">Район</a></li>
+                                <li><a href="#!">Каталог кварталів</a></li>
+                                <li><a href="#!">Іпотека</a></li>
+                                <li><a href="#!">Контакти</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header__nav-btn">
+                        <button class="nav-icon-btn">
+                            <div class="nav-icon"></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h1 class="header__title">Житловий комплекс <br>
+                 в історичному центрі міста
+                    <a href="#benefits">
+                        <img src="./img/header/mouse.svg" alt="scroll next" class="header__title-icon">
+                    </a>
+                </h1>
+        </div>
+        <div class="header__footer"> 
+            <div class="text-right">
+                <a href="#section-map" class="info info--map">Вул. Сагайдачного 10-15</a>
+            </div>
+            <a href="tel:+380448888888" class="info info--tel">+38 (044) 888-88-88</a>
+        </div>
+    </header>
+    <main>
+        <section class="benefits">
+            <h2 class="visually-hidden">Переваги ЖК</h2>
+            <div class="container container--sm">
+                <div class="benefits__row">
+                    <div class="benefits__item">
+                        <img src="./img/benefits/bench.svg" alt="" class="benefits__item-img">
+                        <p class="benefits__item-text">Поряд історичні парки</p>
+                    </div>
+                    <div class="benefits__item">
+                        <img src="./img/benefits/building.svg" alt="" class="benefits__item-img">
+                        <p class="benefits__item-text">Повністю облаштований</p>
+                    </div>
+                    <div class="benefits__item">
+                        <img src="./img/benefits/fountain.svg" alt="" class="benefits__item-img">
+                        <p class="benefits__item-text">10 фонтанів на території</p>
+                    </div>
+                    <div class="benefits__item">
+                        <img src="./img/benefits/bicycle.svg" alt="" class="benefits__item-img">
+                        <p class="benefits__item-text">6 км велодоріжок</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="appartments">
+            <div class="container">
+                <div class="appartments__title">
+                    <h2 class="title-2">Наші квартири</h2>
+                </div>
+                <div class="appartments__cards">
+                    <a href="#!" class="card">
+                        <img class="card__img" src="./img/appartments/01.jpg" alt="">
+                        <h3 class="card__title">Пентхаус "Loft Олімп"</h3>
+                    </a>
+                    <a href="#!" class="card">
+                        <img class="card__img" src="./img/appartments/02.jpg" alt="">
+                        <h3 class="card__title">Апартаменти "Nice Loft"</h3>
+                    </a>
+                    <a href="#!" class="card">
+                        <img class="card__img" src="./img/appartments/03.jpg" alt="">
+                        <h3 class="card__title">Апартаменти "Loft Studio"</h3>
+                    </a>
+                    <a href="#!" class="card">
+                        <img class="card__img" src="./img/appartments/04.jpg" alt="">
+                        <h3 class="card__title">Loft квартира "Престиж"</h3>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="cta">
+            <div class="container">
+                <div class="cta__title">
+                    <h2 class="title-2">Хочете подивитися?</h2>
+                </div>
+                <div class="cta__wrapper">
+                    <div class="cta__text">
+                        <p>ЖК LoftHouse - це проект бізнес-класу, розташований в центрі міста, на Наб. річки Фонтанки 10-15. Комплекс пропонує своїм мешканцям квартири площею від 40 до 170 кв. м. У будівлі буде три секції, в яких розміститься лише 56 квартир.</p>
+                    </div>
+                    <form action="" class="cta__form form">
+                        <input type="text" class="form__input" placeholder="Ваше ім'я">
+                        <input data-tel-input type="text" class="form__input" placeholder="Ваш телефон">
+                        <p class="form__privacy form__privacy--bottom">
+                            *Ми нікому не передаємо ваші дані. <br>І не зберігаємо ваш номер у базу.
+                        </p>
+                        <button type="submit" class="form__btn">Переглянути район</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="video">
+            <div class="container">
+                <h2 class="visually-hidden">Відео</h2>
+                <a data-youtubeLightbox href="https://www.youtube.com/watch?v=izGwDsrQ1eQ&ab_channel=georgemichaelVEVO" class="video__link">
+                    <img src="./img/video/play-button.svg" alt="" class="video__icon">
+                    <img src="./img/video/video.jpg" alt="" class="video__img">
+                </a>
+            </div>
+        </section>
+        <section class="section-map">
+            <div class="container">
+                <div class="section-map__title">
+                    <h2 class="title-2">Район на карті</h2>
+                </div>
+                <div class="section__map">
+                    <div id="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d325519.57556806813!2d30.203056370248245!3d50.401569787880334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNGX0LIsIDAyMDAw!5e0!3m2!1suk!2sua!4v1717333201193!5m2!1suk!2sua" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="feedback">
+            <div class="container">
+                <div class="feedback__title">
+                    <h2 class="title-2">Є питання?</h2>
+                </div>
+                <form action="" class="feedback__form form">
+                    <p class="form__privacy form__privacy--bottom">
+                        *Ми нікому не передаємо ваші дані. <br>І не зберігаємо ваш номер у базу.
+                    </p>
+                    <input type="text" class="form__input" placeholder="Ваше ім'я">
+                    <input data-tel-input type="text" class="form__input" placeholder="Ваш телефон">
+                    <button type="submit" class="form__btn">Переглянути район</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__logo">
+                    <a href="#!">
+                        <img src="./img/logo.svg" alt="LoftHouse">
+                    </a>
+                </div>
+                <div class="footer__nav">
+                    <nav>
+                        <ul class="footer__nav-list">
+                            <li><a href="#!">Про комплекс</a></li>
+                            <li><a href="#!">Район</a></li>
+                            <li><a href="#!">Каталог кварталів</a></li>
+                            <li><a href="#!">Іпотека</a></li>
+                            <li><a href="#!">Контакти</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer__nav">
+                    <nav>
+                        <ul class="footer__nav-list">
+                            <li><a href="#!">Заселення та переїзд</a></li>
+                            <li><a href="#!">Сервісні послуги</a></li>
+                            <li><a href="#!">Екологічна стійкість</a></li>
+                            <li><a href="#!">Інвестиційні можливості</a></li>
+                            <li><a href="#!">Програма лояльності</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer__address">
+                    <ul class="footer__nav-list">
+                        <li>Адреса: Вул. Сагайдачного 10-15</li>
+                        <li>Телефон: <a href="tel:+380448888888">+38 (044) 888-88-88</a></li>
+                        <li>Відділ продажів: 10:00 - 20:00</li>
+                        <li>E-mail: <a class="link-bold" href="mailto:vip@lofthouse.com">vip@lofthouse.com</a></li>
+                    </ul>
+                    <ul class="footer__socials">
+                        <li><a href="#!"><img src="./img/socials/youtube.svg" alt=""></a></li>
+                        <li><a href="#!"><img src="./img/socials/facebook.svg" alt=""></a></li>
+                        <li><a href="#!"><img src="./img/socials/instagram.svg" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- YouTube LightBox -->
+    <div id="youtubelightbox" class="youtubelightbox">
+        <div class="youtubelightbox__centeredchild">
+            <div class="youtubelightbox__videowrapper">
+                <div id="youtubelightboxPlayer"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./libs/phoneMask/mask.js"></script>
+    <script src="./libs/phoneMask/mask_list.js"></script>
+
+    <script src="./libs/youtubeLightbox/youtubeLightbox.js"></script>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
